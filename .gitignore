@@ -1,0 +1,13 @@
+bin/
+cmd/
+dev/
+ect/
+mingw32/
+tmp/
+usr/
+git-bash.exe
+git-cmd.exe
+LICENSE.txt
+PortableGit-2.42.0.2-32-bit.7z.exe
+post-install.bat
+README.portable
