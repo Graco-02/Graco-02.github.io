@@ -111,12 +111,12 @@ a {
   #header_titulo {
     inline-size: 25rem;
     overflow-wrap: break-word;
-    font-size: 2rem;
+    font-size: 5rem;
   }
 
   #header_subtitulo {
     margin-left: 0;
-    font-size: 1rem;
+    font-size: 3rem;
   }
 
   #header_logos {
@@ -134,5 +134,13 @@ a {
   #experiencia {
     inline-size: 20rem;
     overflow-wrap: break-word;
+    font-size: 3rem;
+  }
+
+  .experiencias_lugar {
+    font-size: 3rem;
+  }
+  .experiencias_descriptivo span {
+    font-size: 3rem;
   }
 }
