@@ -108,7 +108,7 @@ a {
   }
 
   #header_titulo {
-    inline-size: 20rem;
+    inline-size: 100rem;
     overflow-wrap: break-word;
     font-size: 5rem;
   }
