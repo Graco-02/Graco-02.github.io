@@ -110,12 +110,12 @@ a {
   #header_titulo {
     inline-size: 100rem;
     overflow-wrap: break-word;
-    font-size: 5rem;
+    font-size: 3rem;
   }
 
   #header_subtitulo {
     margin-left: 0;
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 
   #header_logos {
