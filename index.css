@@ -109,7 +109,7 @@ a {
   }
 
   #header_titulo {
-    inline-size: 25rem;
+    inline-size: 250rem;
     overflow-wrap: break-word;
     font-size: 5rem;
   }
@@ -132,7 +132,7 @@ a {
 
   #proyectos,
   #experiencia {
-    inline-size: 20rem;
+    inline-size: 200rem;
     overflow-wrap: break-word;
     font-size: 3rem;
   }
