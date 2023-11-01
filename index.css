@@ -120,12 +120,6 @@ a {
     font-size: 3rem;
   }
 
-  #header_logos {
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center;
-  }
-
   .img_header_logos {
     width: 10rem;
     height: 10rem;
