@@ -181,6 +181,6 @@ footer {
   }
 
   main {
-    flex-direction: column;
+    grid-template-rows: repeat(2, 1fr);
   }
 }
