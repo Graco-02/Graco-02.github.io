@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
     <title>Francis Ferrer</title>
   </head>
   <body>
@@ -77,8 +78,8 @@
         <ul>
           <li>
             <div>
-              <p class="titulos">proyectos</p>
-              <ol>
+              <p class="titulos" id="proyecto_titulo" onclick="aparecer('proyectos_li')">proyectos</p>
+              <ol id="proyectos_li" class="des_aparecer">
                 <li>
                   <p class="descriptivo_lista_proyectos">
                   <img src="imagenes/android.png" alt="" srcset="" class="img_lista_proyectos">
@@ -117,8 +118,9 @@
         <ul>
           <li>
             <div>
-              <p class="titulos">experiencia</p>
-              <ol>
+              <p class="titulos" id="experiencia_titulo" onclick="aparecer('experiencias')">experiencia</p>
+
+              <ol id="experiencias" class="des_aparecer">
                 <li>
                   <div>
                     <p class="experiencias_lugar">Minsait Payments</p>
@@ -160,6 +162,7 @@
                 </li>
 
               </ol>
+
             </div>
           </li>
         </ul>    

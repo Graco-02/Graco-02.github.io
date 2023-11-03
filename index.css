@@ -10,6 +10,7 @@ header {
 
 header img {
   width: 50rem;
+  transition: 1.5s;
 }
 
 .header_container {
@@ -30,6 +31,7 @@ header img {
   text-transform: capitalize;
   font-size: 3rem;
   text-shadow: 2px 1px 4px #000000;
+  transition: 1.5s;
 }
 
 .header_datos_persona span {
@@ -37,12 +39,14 @@ header img {
   text-transform: capitalize;
   font-size: 1rem;
   margin-left: 1.5rem;
+  transition: 1.5s;
 }
 
 #header_logos {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 1rem;
+  transition: 1.5s;
 }
 
 .img_header_logos {
@@ -50,8 +54,24 @@ header img {
   height: 75px;
   box-shadow: 5px 15px 5px rgb(191, 194, 194);
   border-radius: 50%;
+  transition: 1.5s;
 }
 
+.des_aparecer {
+  transition: 3s;
+  display: none;
+}
+
+#proyecto_titulo:hover,
+#experiencia_titulo:hover {
+  color: white;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#experiencia li {
+  list-style: none;
+}
 /*ADAPTACIONES PARA EL MAIN*/
 main {
   width: 100%;
